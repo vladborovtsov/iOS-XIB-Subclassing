@@ -18,6 +18,10 @@
 		A403D598281BFF8000BF2F9C /* xibdemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A403D597281BFF8000BF2F9C /* xibdemoTests.m */; };
 		A403D5A2281BFF8000BF2F9C /* xibdemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A403D5A1281BFF8000BF2F9C /* xibdemoUITests.m */; };
 		A403D5A4281BFF8000BF2F9C /* xibdemoUITestsLaunchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A403D5A3281BFF8000BF2F9C /* xibdemoUITestsLaunchTests.m */; };
+		A403D5B1281C062600BF2F9C /* TestVc1.xib in Resources */ = {isa = PBXBuildFile; fileRef = A403D5B0281C062600BF2F9C /* TestVc1.xib */; };
+		A403D5B4281C063800BF2F9C /* TestVc1.m in Sources */ = {isa = PBXBuildFile; fileRef = A403D5B3281C063800BF2F9C /* TestVc1.m */; };
+		A403D5B7281C0C6E00BF2F9C /* TestVc2.m in Sources */ = {isa = PBXBuildFile; fileRef = A403D5B6281C0C6E00BF2F9C /* TestVc2.m */; };
+		A403D5BA281C0FB500BF2F9C /* TestVc3.m in Sources */ = {isa = PBXBuildFile; fileRef = A403D5B9281C0FB500BF2F9C /* TestVc3.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +60,13 @@
 		A403D59D281BFF8000BF2F9C /* xibdemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = xibdemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A403D5A1281BFF8000BF2F9C /* xibdemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = xibdemoUITests.m; sourceTree = "<group>"; };
 		A403D5A3281BFF8000BF2F9C /* xibdemoUITestsLaunchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = xibdemoUITestsLaunchTests.m; sourceTree = "<group>"; };
+		A403D5B0281C062600BF2F9C /* TestVc1.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TestVc1.xib; sourceTree = "<group>"; };
+		A403D5B2281C063800BF2F9C /* TestVc1.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestVc1.h; sourceTree = "<group>"; };
+		A403D5B3281C063800BF2F9C /* TestVc1.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestVc1.m; sourceTree = "<group>"; };
+		A403D5B5281C0C6E00BF2F9C /* TestVc2.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestVc2.h; sourceTree = "<group>"; };
+		A403D5B6281C0C6E00BF2F9C /* TestVc2.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestVc2.m; sourceTree = "<group>"; };
+		A403D5B8281C0FB500BF2F9C /* TestVc3.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestVc3.h; sourceTree = "<group>"; };
+		A403D5B9281C0FB500BF2F9C /* TestVc3.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestVc3.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,6 +129,13 @@
 				A403D58C281BFF8000BF2F9C /* Info.plist */,
 				A403D58D281BFF8000BF2F9C /* main.m */,
 				A403D584281BFF7F00BF2F9C /* xibdemo.xcdatamodeld */,
+				A403D5B0281C062600BF2F9C /* TestVc1.xib */,
+				A403D5B2281C063800BF2F9C /* TestVc1.h */,
+				A403D5B3281C063800BF2F9C /* TestVc1.m */,
+				A403D5B5281C0C6E00BF2F9C /* TestVc2.h */,
+				A403D5B6281C0C6E00BF2F9C /* TestVc2.m */,
+				A403D5B8281C0FB500BF2F9C /* TestVc3.h */,
+				A403D5B9281C0FB500BF2F9C /* TestVc3.m */,
 			);
 			path = xibdemo;
 			sourceTree = "<group>";
@@ -244,6 +262,7 @@
 			files = (
 				A403D58B281BFF8000BF2F9C /* LaunchScreen.storyboard in Resources */,
 				A403D588281BFF8000BF2F9C /* Assets.xcassets in Resources */,
+				A403D5B1281C062600BF2F9C /* TestVc1.xib in Resources */,
 				A403D583281BFF7F00BF2F9C /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -269,9 +288,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A403D5BA281C0FB500BF2F9C /* TestVc3.m in Sources */,
+				A403D5B4281C063800BF2F9C /* TestVc1.m in Sources */,
 				A403D58E281BFF8000BF2F9C /* main.m in Sources */,
 				A403D586281BFF7F00BF2F9C /* xibdemo.xcdatamodeld in Sources */,
 				A403D580281BFF7F00BF2F9C /* ViewController.m in Sources */,
+				A403D5B7281C0C6E00BF2F9C /* TestVc2.m in Sources */,
 				A403D57A281BFF7F00BF2F9C /* AppDelegate.m in Sources */,
 				A403D57D281BFF7F00BF2F9C /* SceneDelegate.m in Sources */,
 			);
