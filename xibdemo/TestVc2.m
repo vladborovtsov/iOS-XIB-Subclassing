@@ -22,7 +22,7 @@
 {
   self = [super initWithNibName:@"TestVc1" bundle:[super nibBundle]];
   if (self) {
-    
+    self.tabBarItem.title = @"1"; 
   }
   return self;
 }

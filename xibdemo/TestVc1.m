@@ -26,6 +26,7 @@
   if (self) {
     NSLog(@"TestVC: %@ class init", NSStringFromClass([self class]));
     self.navigationItem.title = NSStringFromClass([self class]);
+    self.tabBarItem.title = @"1"; 
   }
   return self;
 }

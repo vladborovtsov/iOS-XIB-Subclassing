@@ -34,9 +34,12 @@
 }
 
 -(IBAction)b3:(id)sender {
-  TestVc3 *tvc = [[TestVc3 alloc] init];
-  UINavigationController *navCtrl = [[UINavigationController alloc] initWithRootViewController:tvc];
-  [self presentViewController:navCtrl animated:YES completion:nil];
+  UITabBarController * tabBarController = [[UITabBarController alloc] init];
+  tabBarController.viewControllers = @[[[TestVc1 alloc] init], [[TestVc2 alloc] init], [[TestVc3 alloc] init]];
+  
+//  UINavigationController *navCtrl = [[UINavigationController alloc] initWithRootViewController:tabBarController];
+  //[self presentViewController:tabBarController animated:YES completion:nil];
+  [self.navigationController pushViewController:tabBarController animated:YES];
 }
 
 @end
